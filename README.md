@@ -8,11 +8,13 @@ It should solve the following regarding production ML:
 
 This project define few components:
 
-ML-Pipeline
+## ML-Pipeline
+
 Responsible to consume data and finaly to produce an ML-Artifact to be used for ML-Serving.
 It is a DAG reperesntation of ML-Stages and the dependecies between them.
 
-ML-Stage
+## ML-Stage
+
 Has one of the following responsibilites:
 1. Data Transformation
 2. Model Creation
